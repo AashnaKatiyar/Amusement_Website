@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="button" style="left: 70%;"><a href="page27.html">FOR</a></div>
+        <div class="button" style="left: 30%;"><a href="page26.html">WHILE</a></div>
+        <div class="small-button" ><a href="page28.html">Next Question</a></div>
+        
+      </body>
+   <style>
+    body {
+    background-image: url('page25bg.png');
+    /*background-size: 1280px 594px;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    }
+    .button {
+  position: fixed;
+  bottom: 20%; /* Adjust position as needed */
+  left: 30%; /* Adjust position as needed */
+  transform: translate(-50%, -50%); /* Center the button */
+  width: 180px; /* Adjust width to make it circular */
+  height: 180px; /* Adjust height to make it circular */
+  border-radius: 50%; /* Makes the button round */
+}
+
+.button a {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  background-color: #8e2715; /* Red color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 5px 10px;
+  width: 100%; /* Adjust width to fill the button */
+  height: 100%; /* Adjust height to fill the button */
+  border-radius: 50%; /* Ensures the button remains round */
+}
+
+.button a:active {
+  background-color: #be3706; /* Darker red color */
+}
+
+
+.button:after {
+  content: "";
+  height: 100%;
+  width: 100%;
+  padding: 4px;
+  position: absolute;
+  bottom: -15px;
+  left: -4px;
+  z-index: -1;
+  background-color: #2B1800;
+  border-radius: 50%; /* Ensures the button shadow remains round */
+}
+body{
+  text-align:center;
+  background-color:#e0a4f3;
+}
+
+.small-button{
+  position: fixed;
+  bottom: 3%; 
+  right: 3%; 
+  width: 17%; 
+  height: 7%;
+}
+
+.small-button a{
+  color:white;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#7a10a7;
+  display:block;
+  position:relative;
+  padding:5px 10px;
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  
+  -webkit-box-shadow:inset 0 1px 0 #e0a4f3 , 0 10px 0 #7a10a7 ;
+  -moz-box-shadow:inset 0 1px 0 #e0a4f3, 0 10px 0 #7a10a7;
+  box-shadow:inset 0 1px 0 #e0a4f3, 0 10px 0 #7a10a7;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.small-button a:active{
+  top:10px;
+  background-color:#7a10a7;
+  
+  -webkit-box-shadow:inset 0 1px 0 #e0a4f3, inset 0 -3px 0 #7a10a7;
+  -moz-box-shadow:inset 0 1px 0 #e0a4f3, inset 0 -3pxpx 0 #7a10a7;
+  box-shadow:inset 0 1px 0 #e0a4f3, inset 0 -3px 0 #7a10a7;
+}
+
+.small-button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+
+
+</style>

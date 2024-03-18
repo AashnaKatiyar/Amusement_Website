@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <div class="button"><a href="page2.html">Start Journey</a></div>
+      </body>
+   <style>
+   
+body {
+    background-image: url('page1bg.png');
+    /*background-size: 1280px 594px;*/
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;/*
+
+.button {
+  position: fixed;
+  bottom: 1%; 
+  right: 1%; 
+  width: 17%; 
+  height: 7%; 
+  background-color: #5c1104; 
+  border: 4px solid #ffffff; 
+  border-radius: 30px; 
+  color: white;
+  font-size: 10px; 
+  font-weight: bold; 
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  text-transform: uppercase; 
+  letter-spacing: 1px; 
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.3); 
+}*/
+body{
+  text-align:center;
+  background-color:#ffcc8e;
+}
+
+.button{
+  position: fixed;
+  bottom: 3%; 
+  right: 3%; 
+  width: 17%; 
+  height: 7%;
+}
+
+.button a{
+  color:white;
+  font-family:Helvetica, sans-serif;
+  font-weight:bold;
+  font-size:20px;
+  text-align: center;
+  text-decoration:none;
+  background-color:#FFA12B;
+  display:block;
+  position:relative;
+  padding:5px 10px;
+  
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 1px 0px #000;
+  filter: dropshadow(color=#000, offx=0px, offy=1px);
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, 0 10px 0 #915100;
+  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.button a:active{
+  top:10px;
+  background-color:#F78900;
+  
+  -webkit-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+  -moz-box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3pxpx 0 #915100;
+  box-shadow:inset 0 1px 0 #FFE5C4, inset 0 -3px 0 #915100;
+}
+
+.button:after{
+  content:"";
+  height:100%;
+  width:100%;
+  padding:4px;
+  position: absolute;
+  bottom:-15px;
+  left:-4px;
+  z-index:-1;
+  background-color:#2B1800;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+}
+
+   </style>
+</html>
